@@ -1,0 +1,178 @@
+:root{
+    --color-princ: #111827;
+    --white: #fff;
+    --but-color: rgba(113,128,185,255);
+    --pon-color: #0073B0;
+    --white-dark: #F9F9FB;
+    --grey: rgba(205,210,229,255);
+    --black: #000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: var(--white);
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: var(--color-princ);
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+    gap: 64px;
+}
+.formula{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 274px;
+    left: 1064px;
+    width: 480px;
+    height: 476px;
+    background-color: var(--white-dark);
+    gap: 20px;
+}
+.titulo{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: var(--black);
+    top: 55px;
+    left: 186px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 126px;
+    gap: 24px;
+    left: 40px;
+}
+.espa{
+    width: 400px;
+    height: 48px;
+    border-radius: 4px;
+    padding: 12px, 16px, 12px, 16px;
+    gap: 12px;
+    background-color: var(--grey);
+    border-style: none;
+}
+.espa::placeholder{
+    font-family: 'Inter', sans-serif;
+    width: 42px;
+    height: 17px;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 16.94px;
+    color: #7C7C89;
+    position: absolute;
+    top: 15.5px;
+    left: 52px;
+}
+.botao{
+    width: 400px;
+    height: 48px;
+    border-radius: 4px;
+    padding: 12px, 16px, 12px, 16px;
+    gap: 16px;
+    background-color: var(--but-color);
+    border-style: none;
+}
+.icon1{
+    position: absolute;
+    top: 17.25px;
+    left: 19px;
+    color: #7C7C89;
+}
+.icon2{
+    position: absolute;
+    top: 85px;
+    left: 18px;
+    color: #7C7C89;
+}
+.login{
+    font-family: 'Inter', sans-serif;
+    width: 43px;
+    height: 19px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: black;
+}
+.texto-final{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23.44px;
+    width: 119px;
+    height: 23px;
+    top: 380px;
+    left: 40px;
+    color: black;
+
+}
+.linha{
+    position: absolute;
+    top: 342px;
+    left: 178px;
+    width: 124px;
+    height: 2px;
+    background-color: rgba(180,180,181,255);
+}
+.texto-botao{
+    font-family: 'Inter', sans-serif;
+    width: 53px;
+    height: 19px;
+    top: 14.5px;
+    left: 95.5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.icon3{
+    position: absolute;
+    left: 58px;
+    width: 27px;
+    height: 27px;
+    top: 10px;
+}
+.botao2{
+    position: absolute;
+    top: 365px;
+    left: 200px;
+    width: 244px;
+    height: 48px;
+    border-radius: 4px;
+    padding: 12px, 16px, 12px, 16px;
+    gap: 16px;
+    background-color: var(--but-color);
+    border-style: none;
+}
+.imagens{
+    position: absolute;
+    top: 274px;
+    left: 360px;
+    display: flex;
+    flex-direction: row;
+    width: 576px;
+    height: 476.48px;
+}
+.texto{
+    color: var(--white);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 80px;
+    left: 360px;
+}
+.ponto{
+    color: var(--pon-color);
+}
